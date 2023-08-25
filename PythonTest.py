@@ -1,10 +1,10 @@
-"""This is a method to calculate"""
-def is_number_even(my_var):
-    """This is a functon to calculate event number"""
-    return "Even" if my_var % 2 == 0 else "Odd"
+""" File contains various function to under Pylint """
 
-my_variable = 6
 
-# my_var = input("Enter a number: ")
+def is_number_even(num):
+    """Function to check if number is even or odd"""
+    return "Even" if num % 2 == 0 else "Odd"
 
-print(f"The number {my_variable} is {is_number_even(my_variable)}")
+
+NUM = 5
+print(f"The number {NUM} is {is_number_even(NUM)}")
